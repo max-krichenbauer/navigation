@@ -42,7 +42,7 @@ addons:
     notification_email: max@marui-plugin.com
     build_command_prepend: "cov-configure --clang && cd $CI_SOURCE_PATH"
     build_command: catkin_make --directory $CATKIN_WS_PATH
-    branch_pattern: kinetic-devel-coverity-scan
+    branch_pattern: kinetic-devel-coverity-scan-ros
 
 install:
   # make catkin_ws
